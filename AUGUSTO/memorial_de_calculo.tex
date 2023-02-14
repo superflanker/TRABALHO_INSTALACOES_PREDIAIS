@@ -1,0 +1,757 @@
+\chapter[MEMORIAL DE CÁLCULO]{MEMORIAL DE CÁLCULO}
+
+\section{CÁLCULOS DAS PREVISÕES DE CARGAS}
+
+\subsection{CRITÉRIOS DA NBR-5410}
+\label{criterios_carga_nbr}
+\subsubsection{CÁLCULO DE CARGA DAS TOMADAS DE USO GERAL}
+
+Para os banheiros, a NBR-5410 prevê pelo menos um ponto de tomada próximo ao lavatório, com cuidados para evitar riscos de choques elétricos.
+
+Para varandas com área inferior a $2$ $m^2$ ou profundidade inferior a $0,80$ $m$, é necessário pelo menos um ponto de tomada, podendo ser instalado próximo ao acesso.
+
+Em salas e dormitórios, deve ser previsto pelo menos um ponto de tomada para cada $5$ $m$, ou fração de perímetro, sendo recomendável equipar pontos com mais de uma tomada.
+
+Para cozinhas, copas, copas-cozinhas, áreas de serviço, lavanderias e locais similares, é necessário pelo menos um ponto de tomada para cada $3,5$ $m$, ou fração de perímetro, sendo que acima da bancada da pia devem ser previstas no mínimo duas tomadas, no mesmo ponto ou em pontos distintos.
+
+Para demais cômodos, o número mínimo de pontos de tomada é definido de acordo com a área, variando de um ponto para áreas de até $2,25$ $m^2$ até um ponto para cada $5$ $m$, ou fração de perímetro, para áreas acima de $6$ $m^2$.
+
+A recomendação é incluir no projeto elétrico tomadas adicionais em locais estratégicos, devido à crescente utilização de aparelhos eletroeletrônicos no dia a dia, para evitar a necessidade de adaptadores, extensões e outros multiplicadores de tomadas.
+
+Caso os locais, como banheiros, cozinhas, copas, copas-cozinhas, áreas de serviço, lavanderias ou locais análogos, tenham 3 ou mais tomadas, 3 delas devem ser instaladas com capacidade de pelo menos 600 VA, e as demais com capacidade de pelo menos 100 VA.
+
+Já nos demais cômodos ou dependências, a norma exige que cada tomada tenha capacidade de pelo menos 100 VA.
+
+\subsubsection{CÁLCULO DE CARGA DAS TOMADAS DE USO ESPECÍFICO}
+
+A NBR-5410 não estabelece uma previsão de carga padrão para tomadas de uso específico, pois essas tomadas são destinadas a equipamentos elétricos específicos, cada um com sua demanda de carga elétrica particular. Dessa forma, a previsão de carga para tomadas de uso específico deve ser feita de acordo com as informações do fabricante do equipamento elétrico a ser conectado a ela. As informações sobre a carga elétrica requerida pelo equipamento podem ser encontradas no manual do usuário ou na placa de identificação do equipamento. A instalação elétrica deve ser dimensionada de forma a atender a demanda de carga de todos os equipamentos elétricos conectados, incluindo as tomadas de uso específico, garantindo assim a segurança e o bom funcionamento do sistema elétrico.
+
+Desta forma, a previsão de carga das tomadas de uso específico é simplesmente a soma da potência instalada de cada equipamento previsto no projeto.
+
+\subsubsection{CÁLCULO DE CARGA DE ILUMINAÇÃO}
+
+A NBR-5410 estabelece critérios para a previsão de carga de iluminação em instalações elétricas residenciais. As diretrizes para a previsão de carga de iluminação são as seguintes:
+
+\begin{itemize}
+	\item Em cada cômodo ou dependência, deve ser previsto pelo menos um ponto de luz com potência mínima de $100$ $VA$;
+	\item Em cômodos com área igual ou inferior a $6$ $m^2$, deve ser prevista pelo menos uma carga de $100$ $VA$;
+	\item Em cômodos com área superior a $6$ $m^2$, a previsão de carga deve considerar $100$ $VA$ para os primeiros $6$ $m^2$, acrescidos de $60$ $VA$ para cada aumento de $4$ $m^2$ inteiros.
+	
+\end{itemize}
+
+É importante destacar que esses valores são mínimos e que a previsão de carga de iluminação deve considerar a utilização prevista para cada ambiente, a fim de garantir que a capacidade do circuito seja suficiente para atender à demanda de carga elétrica requerida pelos pontos de iluminação, sem sobrecarregar o sistema elétrico e garantindo a segurança do usuário.
+
+\subsection{CARGA INSTALADA}
+
+A TABELA~\ref{tab:previsao_de_carga} mostra o levantamento dos pontos de iluminação, tomadas de uso geral e tomadas de uso específico, bem como suas cargas instaladas, de acordo com os critérios descritos na Seção~\ref{criterios_carga_nbr}:
+
+\begin{table}[H]
+	\centering
+	\caption{CÁLCULO DE PONTOS E DE PREVISÃO DE CARGA}
+	\label{tab:previsao_de_carga}
+	\resizebox{\columnwidth}{!}{%
+	\begin{tabular}{|l|l|ll|llll|lll|ll|}
+		\hline
+		\multirow{2}{*}{PAVIMENTO}          & \multirow{2}{*}{DEPENDÊNCIA} & \multicolumn{2}{l|}{DIMENSÕES}                                       & \multicolumn{4}{l|}{ILUMINAÇÃO}                                                                                                                        & \multicolumn{3}{l|}{TUG}                                                                                    & \multicolumn{2}{l|}{TUE}                             \\ \cline{3-13} 
+		&                              & \multicolumn{1}{l|}{AREA ($m^2$)}              & PERÍMETRO (m)          & \multicolumn{1}{l|}{N. PONTOS}          & \multicolumn{1}{l|}{POT.UNIT}             & \multicolumn{1}{l|}{POT. UNIT. CALC}      & POT. TOTAL           & \multicolumn{1}{l|}{N. PONTOS}          & \multicolumn{1}{l|}{POT. UNIT}            & POT. TOTAL            & \multicolumn{1}{l|}{APARELHO}             & POTENCIA \\ \hline
+		\multirow{17}{*}{TERREO}            & HALL ENT + EXTERNO           & \multicolumn{1}{l|}{1,001}                  & 4,1399                 & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{40}                   & 400                  & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & 100                   & \multicolumn{1}{l|}{}                     &          \\ \cline{2-13} 
+		& SALA DE ESTAR                & \multicolumn{1}{l|}{25,39}                  & 20,71                  & \multicolumn{1}{l|}{4}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{340}                  & 400                  & \multicolumn{1}{l|}{5}                  & \multicolumn{1}{l|}{100}                  & 500                   & \multicolumn{1}{l|}{AR CONDICIONADO}      & 3600     \\ \cline{2-13} 
+		& QUARTO 2                     & \multicolumn{1}{l|}{19,08}                  & 20                     & \multicolumn{1}{l|}{3}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{280}                  & 300                  & \multicolumn{1}{l|}{5}                  & \multicolumn{1}{l|}{100}                  & 500                   & \multicolumn{1}{l|}{AR CONDICIONADO}      & 3600     \\ \cline{2-13} 
+		& \multirow{2}{*}{GARAGEM}     & \multicolumn{1}{l|}{\multirow{2}{*}{36,93}} & \multirow{2}{*}{29,6}  & \multicolumn{1}{l|}{\multirow{2}{*}{6}} & \multicolumn{1}{l|}{\multirow{2}{*}{100}} & \multicolumn{1}{l|}{\multirow{2}{*}{520}} & \multirow{2}{*}{600} & \multicolumn{1}{l|}{\multirow{2}{*}{6}} & \multicolumn{1}{l|}{\multirow{2}{*}{100}} & \multirow{2}{*}{600}  & \multicolumn{1}{l|}{MOTOR PORTÃO}         & 650      \\ \cline{12-13} 
+		&                              & \multicolumn{1}{l|}{}                       &                        & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     & \multicolumn{1}{l|}{}                     &                      & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     &                       & \multicolumn{1}{l|}{TOMADA POTENCIA 220V} & 1000     \\ \cline{2-13} 
+		& SALA DE JANTAR               & \multicolumn{1}{l|}{26,34}                  & 21,43                  & \multicolumn{1}{l|}{4}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{400}                  & 400                  & \multicolumn{1}{l|}{5}                  & \multicolumn{1}{l|}{100}                  & 500                   & \multicolumn{1}{l|}{}                     &          \\ \cline{2-13} 
+		& \multirow{5}{*}{COZINHA}     & \multicolumn{1}{l|}{\multirow{5}{*}{9,49}}  & \multirow{5}{*}{12,65} & \multicolumn{1}{l|}{\multirow{5}{*}{1}} & \multicolumn{1}{l|}{\multirow{5}{*}{100}} & \multicolumn{1}{l|}{\multirow{5}{*}{100}} & \multirow{5}{*}{100} & \multicolumn{1}{l|}{\multirow{2}{*}{1}} & \multicolumn{1}{l|}{\multirow{2}{*}{}}    & \multirow{2}{*}{600}  & \multicolumn{1}{l|}{GRILL}                & 1200     \\ \cline{12-13} 
+		&                              & \multicolumn{1}{l|}{}                       &                        & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     & \multicolumn{1}{l|}{}                     &                      & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     &                       & \multicolumn{1}{l|}{LAVA LOUÇA}           & 1500     \\ \cline{9-13} 
+		&                              & \multicolumn{1}{l|}{}                       &                        & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     & \multicolumn{1}{l|}{}                     &                      & \multicolumn{1}{l|}{\multirow{3}{*}{3}} & \multicolumn{1}{l|}{\multirow{3}{*}{}}    & \multirow{3}{*}{1350} & \multicolumn{1}{l|}{TORNEIRA ELETRICA}    & 4500     \\ \cline{12-13} 
+		&                              & \multicolumn{1}{l|}{}                       &                        & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     & \multicolumn{1}{l|}{}                     &                      & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     &                       & \multicolumn{1}{l|}{FOGÃO ELÉTRICO}       & 6500     \\ \cline{12-13} 
+		&                              & \multicolumn{1}{l|}{}                       &                        & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     & \multicolumn{1}{l|}{}                     &                      & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     &                       & \multicolumn{1}{l|}{FORNO ELÉTRICO}       & 6500     \\ \cline{2-13} 
+		& BWC SOCIAL                   & \multicolumn{1}{l|}{2,23}                   & 6                      & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{100}                  & 100                  & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & 600                   & \multicolumn{1}{l|}{}                     &          \\ \cline{2-13} 
+		& BWC Q2                       & \multicolumn{1}{l|}{4,12}                   & 8,8                    & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{100}                  & 100                  & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & 600                   & \multicolumn{1}{l|}{CHUVEIRO}             & 6500     \\ \cline{2-13} 
+		& BWC Q1                       & \multicolumn{1}{l|}{4,02}                   & 8,1                    & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{100}                  & 100                  & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & 600                   & \multicolumn{1}{l|}{CHUVEIRO}             & 6500     \\ \cline{2-13} 
+		& QUARTO 1                     & \multicolumn{1}{l|}{18,91}                  & 19,79                  & \multicolumn{1}{l|}{3}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{280}                  & 300                  & \multicolumn{1}{l|}{4}                  & \multicolumn{1}{l|}{100}                  & 400                   & \multicolumn{1}{l|}{AR CONDICIONADO}      & 3600     \\ \cline{2-13} 
+		& JARDIM EXTERNO               & \multicolumn{1}{l|}{8,09}                   & 11,5                   & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{100}                  & 100                  & \multicolumn{1}{l|}{3}                  & \multicolumn{1}{l|}{100}                  & 300                   & \multicolumn{1}{l|}{}                     &          \\ \cline{2-13} 
+		& JARDIM INTERNO               & \multicolumn{1}{l|}{12,64}                  & 17,49                  & \multicolumn{1}{l|}{2}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{160}                  & 200                  & \multicolumn{1}{l|}{4}                  & \multicolumn{1}{l|}{100}                  & 400                   & \multicolumn{1}{l|}{}                     &          \\ \hline
+		\multirow{13}{*}{SEGUNDO PAVIMENTO} & SUITE                        & \multicolumn{1}{l|}{25,59}                  & 23,41                  & \multicolumn{1}{l|}{4}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{340}                  & 400                  & \multicolumn{1}{l|}{5}                  & \multicolumn{1}{l|}{100}                  & 500                   & \multicolumn{1}{l|}{AR CONDICIONADO}      & 3600     \\ \cline{2-13} 
+		& BWC SUITE                    & \multicolumn{1}{l|}{3,12}                   & 7,4                    & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{100}                  & 100                  & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & 600                   & \multicolumn{1}{l|}{CHUVEIRO}             & 6500     \\ \cline{2-13} 
+		& \multirow{2}{*}{LAVANDERIA}  & \multicolumn{1}{l|}{\multirow{2}{*}{9,8}}   & \multirow{2}{*}{13}    & \multicolumn{1}{l|}{\multirow{2}{*}{1}} & \multicolumn{1}{l|}{\multirow{2}{*}{100}} & \multicolumn{1}{l|}{\multirow{2}{*}{100}} & \multirow{2}{*}{100} & \multicolumn{1}{l|}{\multirow{2}{*}{4}} & \multicolumn{1}{l|}{}                     & 700                   & \multicolumn{1}{l|}{MÁQUINA LAVA E SECA}  & 3500     \\ \cline{10-13} 
+		&                              & \multicolumn{1}{l|}{}                       &                        & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     & \multicolumn{1}{l|}{}                     &                      & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{}                     & 1200                  & \multicolumn{1}{l|}{}                     &          \\ \cline{2-13} 
+		& BWC SOCIAL                   & \multicolumn{1}{l|}{2,04}                   & 6,06                   & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{100}                  & 100                  & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & 600                   & \multicolumn{1}{l|}{}                     &          \\ \cline{2-13} 
+		& CLOSET Q3                    & \multicolumn{1}{l|}{4,7}                    & 8,63                   & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{100}                  & 100                  & \multicolumn{1}{l|}{2}                  & \multicolumn{1}{l|}{100}                  & 200                   & \multicolumn{1}{l|}{}                     &          \\ \cline{2-13} 
+		& QUARTO 3                     & \multicolumn{1}{l|}{19,48}                  & 20,8                   & \multicolumn{1}{l|}{3}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{280}                  & 300                  & \multicolumn{1}{l|}{5}                  & \multicolumn{1}{l|}{100}                  & 500                   & \multicolumn{1}{l|}{AR CONDICIONADO}      & 3600     \\ \cline{2-13} 
+		& BWC Q3                       & \multicolumn{1}{l|}{3,97}                   & 8,7                    & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{100}                  & 100                  & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & 600                   & \multicolumn{1}{l|}{CHUVEIRO}             & 6500     \\ \cline{2-13} 
+		& TERRAÇO                      & \multicolumn{1}{l|}{16,18}                  & 16,28                  & \multicolumn{1}{l|}{2}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{220}                  & 200                  & \multicolumn{1}{l|}{2}                  & \multicolumn{1}{l|}{100}                  & 200                   & \multicolumn{1}{l|}{}                     &          \\ \cline{2-13} 
+		& SALA INTIMA                  & \multicolumn{1}{l|}{19,58}                  & 18,02                  & \multicolumn{1}{l|}{3}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{280}                  & 300                  & \multicolumn{1}{l|}{4}                  & \multicolumn{1}{l|}{100}                  & 400                   & \multicolumn{1}{l|}{AR CONDICIONADO}      & 3600     \\ \cline{2-13} 
+		& CORREDOR SUITE               & \multicolumn{1}{l|}{1,71}                   & 5,5                    & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{40}                   & 100                  & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & 100                   & \multicolumn{1}{l|}{}                     &          \\ \cline{2-13} 
+		& HALL                         & \multicolumn{1}{l|}{1,85}                   & 5,65                   & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{40}                   & 100                  & \multicolumn{1}{l|}{1}                  & \multicolumn{1}{l|}{100}                  & 100                   & \multicolumn{1}{l|}{}                     &          \\ \cline{2-13} 
+		& ESCADA                       & \multicolumn{1}{l|}{4,9}                    & 8,9                    & \multicolumn{1}{l|}{2}                  & \multicolumn{1}{l|}{100}                  & \multicolumn{1}{l|}{100}                  & 200                  & \multicolumn{3}{l|}{NORMA NÃO PREVÊ}                                           & \multicolumn{1}{l|}{}                     &          \\ \hline
+		& TOTAL                        & \multicolumn{1}{l|}{}                       &                        & \multicolumn{1}{l|}{48}                 & \multicolumn{1}{l|}{}                     & \multicolumn{1}{l|}{}                     & 4800                 & \multicolumn{1}{l|}{66}                 & \multicolumn{1}{l|}{}                     & 12650                 & \multicolumn{1}{l|}{}                     & 72950    \\ \hline
+	\end{tabular}}
+\end{table}
+
+A previsão de carga é de $92.400$ $VA$, segundo a soma total das cargas instaladas.
+
+\section{DETERMINAÇÃO DA PROVÁVEL DEMANDA}
+
+\subsection{MÉTODOS DE CÁLCULO}
+
+\subsubsection{MÉTODO COBEI}
+O Método COBEI é uma forma de calcular a demanda de potência elétrica para um determinado estabelecimento ou edifício. A sigla COBEI significa "Comitê Brasileiro de Eletricidade, Eletrônica, Iluminação e Telecomunicações", e esse método é baseado em normas técnicas brasileiras.
+
+A demanda de potência elétrica é a quantidade de energia que é requerida pelo estabelecimento em um determinado momento. Essa demanda é influenciada pelo número de aparelhos eletrodomésticos e eletrônicos em uso, pelo tipo de atividade realizada no local, entre outros fatores.
+
+O Método COBEI leva em consideração a potência nominal dos equipamentos elétricos que serão utilizados no local, além de fatores como o fator de simultaneidade (ou seja, a probabilidade de que todos os equipamentos elétricos estejam em uso ao mesmo tempo), o fator de demanda (que é a fração da carga máxima esperada) e a previsão de crescimento da demanda futura.
+
+Com base nesses dados, o Método COBEI permite calcular a demanda de potência elétrica para o estabelecimento, o que é importante para a escolha adequada do tamanho do transformador e do quadro de distribuição de energia elétrica.
+
+\subsubsection{MÉTODO CEMIG}
+
+O método CEMIG é um método utilizado para o cálculo da demanda de potência elétrica em edificações. Ele foi desenvolvido pela Companhia Energética de Minas Gerais (CEMIG) e leva em consideração diversos fatores, como o número e a potência dos equipamentos instalados, o tipo de atividade desenvolvida na edificação, as características da iluminação e o tipo de climatização utilizado, entre outros. A partir dessas informações, é possível estimar a demanda de potência elétrica máxima que será requerida pela edificação em determinado momento, o que é importante para a adequação do sistema elétrico e a definição da tarifa de energia elétrica a ser aplicada.
+
+\subsection{PROVÁVEL DEMANDA}
+
+Para cálculo da demanda, utiliza-se dois métodos, um para iluminação e tomadas de uso geral e um diferente para cálculo da demanda das tomadas de uso específico. O método COBEI é bastante prático para cálculos de demanda de tomadas de uso geral e iluminação, pois considera somente a carga instalada para a determinação da demanda. Porém, para as tomadas de uso especifico, o método COBEI considera demanda de 100\%. Portanto, o método CEMIG é utilizado apenas para as tomadas de uso específico, pois considera .
+
+Segundo o método COBEI, o fator de demanda de tomadas de uso geral e iluminação é obtido da tabela mostrada na \autoref{fig:demanda_cobei}:
+
+\figura
+{FATORES DE DEMANDA SEGUNDO A POTÊNCIA INSTALADA - CT-64/COBEI} % Legenda
+{.8} % % da largura da área de texto
+{imagens/demanda_cobei} % localização da figura
+{CT-64/COBEI} % fonte da figura
+{demanda_cobei} % etiqueta
+{}
+{}
+
+Segundo o método CEMIG, o fator de demanda para tomadas de uso específico é obtida da tabela mostrada na \autoref{fig:demanda_cemig}:
+
+\figura
+{FATORES DE DEMANDA PARA TOMADAS DE USO ESPECIFICO - MÉTODO CEMIG} % Legenda
+{.8} % % da largura da área de texto
+{imagens/demanda_cemig} % localização da figura
+{ND 5.2 CEMIG} % fonte da figura
+{demanda_cemig} % etiqueta
+{}
+{}
+
+A potência instalada para iluminação e tomadas de uso geral é de $17.450$ $VA$ ($P_{COB}$), portanto, segundo a \autoref{fig:demanda_cobei}, o fator de demanda ($F_{COB}$) é $0,24$;
+
+A potência instalada para as tomads de uso geral é de $72.950$ $VA$ ($P_{CEMIG}$), sendo o número de tomadas igual a 18. Portanto, a \autoref{fig:demanda_cemig} indica um fator de demanda ($F_{CEMIG}$) de $0,41$.
+
+A demanda total da edificação é a soma das demandas individuais:
+
+\begin{equation}
+	D = F_{COB} \times P_{COB} + F_{CEMIG} \times P_{CEMIG}
+\end{equation}
+
+Portanto, a demanda provável será igual a:
+
+\begin{equation}
+	\begin{split}
+		D = 17.450 \times 0,24 + 72.950 \times 0,41\\
+		D = 34.097,5 VA
+	\end{split}
+\end{equation}
+
+Logo, a demanda provável da edificação é de $34.097,5$ $VA$
+
+A demanda provável é importante para a escolha da entrada de serviço. Segundo a tabela 2 da norma NTC 901100, o padrão da entrada de serviço segue as especificações listadas abaixo:
+
+\begin{itemize}
+	\item \textbf{\textit{Categoria}}: 41
+	\item \textbf{\textit{Demanda Máxima:}} $38$ $kVA$
+	\item \textbf{\textit{Tipo de fornecimento:}} Trifásico a 4 fios.
+	\item \textbf{\textit{Bitola do fio (Ramal de entrada):}} para as fases, $25$ $mm^2$ EPR/XLPE 90°C,  condutor de aterramento nu ou encapado de $16$ $mm^2$;
+	\item \textbf{\textit{Poste: }}DAN 200
+\end{itemize}
+
+A entrada de serviço fica assim definida:
+
+\begin{itemize}
+	\item \textit{Tipo de entrada:} Categoria 41 COPEL, segundo a tabela 2 e a demanda requerida ($34.097,5$ $VA$);
+	\item \textit{Ramal de Entrada:} tipo trifásica, categoria 41, com disjuntor trifásico de $100$ $A$ e Medidor Trifásico a 4 fios tipo T;
+	\item \textit{Fios de fase/neutro:} cabos de cobre com seção nominal de $25$ $mm^2$ com isolamento EPR/XLPE 90°C;
+	\item \textit{Fio de Proteção (PE):} cabo de cobre com seção nominal de $16$ $mm^2$ com isolamento EPR/XLPE 90°C;
+	\item \textit{Modo de Instalação:} Maneira ``D'' (Subterrânea);
+	\item \textit{Eletrodutos: } eletroduto corrugado com diâmetro de 40mm para o circuito 3F+N e um eletroduto corrugado com 20mm de diâmetro para o condutor de proteção.
+\end{itemize}
+
+\section{DIVISÃO DE CIRCUITOS}
+
+A NBR-5410 define critérios para a divisão de circuitos em instalações elétricas de baixa tensão. Entre os critérios definidos, podemos citar:
+
+\begin{itemize}
+	\item A divisão dos circuitos deve ser feita de forma a evitar a sobrecarga dos condutores e dos dispositivos de proteção.
+	
+	\item A corrente de projeto dos circuitos deve ser escolhida com base na carga elétrica a ser alimentada.
+	
+	\item Os circuitos devem ser agrupados de acordo com a sua finalidade, podendo ser divididos em circuitos de iluminação, circuitos de tomadas, circuitos de equipamentos fixos, entre outros.
+	
+	\item Os circuitos de iluminação devem ser separados dos circuitos de tomadas, exceto em casos específicos, como em áreas de trabalho.
+	
+	\item Em áreas externas ou úmidas, os circuitos devem ser protegidos por dispositivos diferenciais-residuais (DR).
+	
+	\item Para circuitos de equipamentos fixos, devem ser consideradas as especificações do fabricante em relação à potência e corrente de partida.
+	
+	\item Em áreas com risco de explosão ou incêndio, devem ser utilizados dispositivos de proteção específicos.
+	
+\end{itemize}
+
+
+A aplicação destes critérios gerou os circuitos de distribuição, dispostos na TABELA~\ref{tab:distribuicao_circuitos}, de acordo com os equipamentos elétricos instalados e determinação dos quadros de distribuição:
+
+\begin{longtable}{|l|l|l|l|}
+	\caption{DISTRIBUIÇÃO DE CIRCUITOS DE ACORDO COM O EQUIPAMENTO E QUADRO DE DISTRIBUIÇÃO}
+	\label{tab:distribuicao_circuitos}\\
+	\hline
+	CIRCUITO & TIPO & QUADRO & TENSÃO \\ \hline
+	\endfirsthead
+	%
+	\endhead
+	%
+	C12, C13 & AR CONDICIONADO & QDC1 & 220 \\ \hline
+	C20, C21 & TORNEIRA ELETRICA & QDC1 & 220 \\ \hline
+	C26, C27 & CHUVEIRO & QDC1 & 220 \\ \hline
+	C28, C29 & CHUVEIRO & QDC1 & 220 \\ \hline
+	C14, C15 & AR CONDICIONADO & QDC1 & 220 \\ \hline
+	C16, C17 & AR CONDICIONADO & QDC1 & 220 \\ \hline
+	C12, C13 & AR CONDICIONADO & QDC2 & 220 \\ \hline
+	C18, C19 & CHUVEIRO & QDC2 & 220 \\ \hline
+	C8, C9 & AR CONDICIONADO & QDC2 & 220 \\ \hline
+	C16, C17 & CHUVEIRO & QDC2 & 220 \\ \hline
+	C10, C11 & AR CONDICIONADO & QDC2 & 220 \\ \hline
+	C18, C19 & \begin{tabular}[c]{@{}l@{}}MOTOR PORTÃO\\ TOMADA POTENCIA 220V\end{tabular} & QDC1 & 220 \\ \hline
+	C22, C23 & FOGÃO ELÉTRICO & QDC1 & 220 \\ \hline
+	C24, C25 & FORNO ELÉTRICO & QDC1 & 220 \\ \hline
+	C14, C15 & MÁQUINA LAVA E SECA & QDC2 & 220 \\ \hline
+	C4 & \begin{tabular}[c]{@{}l@{}}TUG \\ HALL ENTRADA\\ SALA DE ESTAR\\ BWC SOCIAL\end{tabular} & QDC1 & 127 \\ \hline
+	C5 & \begin{tabular}[c]{@{}l@{}}TUG \\ QUARTO 2\\ BWC Q2\end{tabular} & QDC1 & 127 \\ \hline
+	C6 & \begin{tabular}[c]{@{}l@{}}TUG\\ GARAGEM\\ JARDIM EXTERNO\end{tabular} & QDC1 & 127 \\ \hline
+	C7 & \begin{tabular}[c]{@{}l@{}}TUG\\ SALA DE JANTAR\\ COZINHA\end{tabular} & QDC1 & 127 \\ \hline
+	C8 & \begin{tabular}[c]{@{}l@{}}TUG\\ COZINHA GRILL\end{tabular} & QDC1 & 127 \\ \hline
+	C9 & \begin{tabular}[c]{@{}l@{}}TUG\\ COZINHA LAVA LOUÇA\end{tabular} & QDC1 & 127 \\ \hline
+	C10 & \begin{tabular}[c]{@{}l@{}}TUG\\ COZINHA\end{tabular} & QDC1 & 127 \\ \hline
+	C11 & \begin{tabular}[c]{@{}l@{}}TUG\\ BWC Q1\\ QUARTO 1\\ JARDIM INTERNO\end{tabular} & QDC1 & 127 \\ \hline
+	C3 & \begin{tabular}[c]{@{}l@{}}TUG\\ CLOSET Q3\\ QUARTO 3\\ BWC Q3\end{tabular} & QDC2 & 127 \\ \hline
+	C4 & \begin{tabular}[c]{@{}l@{}}TUG\\ TERRAÇO\\ SALA INTIMA\\ BWC SOCIAL\end{tabular} & QDC2 & 127 \\ \hline
+	C5 & \begin{tabular}[c]{@{}l@{}}TUG\\ LAVANDERIA\\ CORREDOR SUITE\\ HALL\end{tabular} & QDC2 & 127 \\ \hline
+	C6 & \begin{tabular}[c]{@{}l@{}}TUG\\ LAVANDERIA\end{tabular} & QDC2 & 127 \\ \hline
+	C7 & \begin{tabular}[c]{@{}l@{}}TUG\\ SUITE\\ BWC SUITE\end{tabular} & QDC2 & 127 \\ \hline
+	C1 & \begin{tabular}[c]{@{}l@{}}ILUMINAÇÃO\\ HALL ENTRADA\\ SALA DE ESTAR\\ QUARTO 2\end{tabular} & QDC1 & 127 \\ \hline
+	C2 & \begin{tabular}[c]{@{}l@{}}ILUMINAÇÃO\\ GARAGEM\\ SALA DE JANTAR\end{tabular} & QDC1 & 127 \\ \hline
+	C3 & \begin{tabular}[c]{@{}l@{}}ILUMINAÇÃO\\ COZINHA\\ BWC SOCIAL\\ BWC Q2\\ BWC Q1\\ QUARTO 1\\ JARDIM EXTERNO\\ JARDIM INTERNO\end{tabular} & QDC1 & 127 \\ \hline
+	C1 & \begin{tabular}[c]{@{}l@{}}ILUMINAÇÃO\\ CLOSET Q3\\ QUARTO 3\\ BWC Q3\\ TERRAÇO\\ SALA INTIMA\\ ESCADA\end{tabular} & QDC2 & 127 \\ \hline
+	C2 & \begin{tabular}[c]{@{}l@{}}ILUMINAÇÃO\\ SUITE\\ LAVANDERIA\\ BWC SUITE\\ BWC SOCIAL\\ CORREDOR SUITE\\ HALL\end{tabular} & QDC2 & 127 \\ \hline
+\end{longtable}
+
+
+\section{BALANCEAMENTO DE CARGA}
+
+O balanceamento de carga é feita utilizando o seguinte critério:
+
+\begin{itemize}
+	
+	\item Distribuir os circuitos nos quadros de distribuição, de forma equilibrada, para evitar sobrecarga em uma ou mais fases da rede trifásica.
+	
+\end{itemize}
+
+A aplicação deste critério gerou a distribuição de carga disposta na TABELA~\ref{tab:balanceamento_de_carga}:
+
+\begin{longtable}{|l|l|l|l|l|l|}
+	\caption{BALANCEAMENTO DE CARGA DE ACORDO COM O EQUIPAMENTO E POTÊNCIA INSTALADA}
+	\label{tab:balanceamento_de_carga}\\
+	\hline
+	CIRCUITO & QUADRO & TENSÃO & FASE F1 & FASE F2 & FASE F3 \\ \hline
+	\endfirsthead
+	%
+	\endhead
+	%
+	C12, C13 & QDC1   & 220    & 1800    & 1800    &         \\ \hline
+	C20, C21 & QDC1   & 220    & 2250    & 2250    &         \\ \hline
+	C26, C27 & QDC1   & 220    & 3250    &         & 3250    \\ \hline
+	C28, C29 & QDC1   & 220    & 3250    & 3250    &         \\ \hline
+	C14, C15 & QDC1   & 220    & 1800    &         & 1800    \\ \hline
+	C16, C17 & QDC1   & 220    &         & 1800    & 1800    \\ \hline
+	C12, C13 & QDC2   & 220    &         & 1800    & 1800    \\ \hline
+	C18, C19 & QDC2   & 220    &         & 3250    & 3250    \\ \hline
+	C8, C9   & QDC2   & 220    & 1800    & 1800    &         \\ \hline
+	C16, C17 & QDC2   & 220    & 3250    &         & 3250    \\ \hline
+	C10, C11 & QDC2   & 220    & 1800    &         & 1800    \\ \hline
+	C18, C19 & QDC1   & 220    &         & 825     & 825     \\ \hline
+	C22, C23 & QDC1   & 220    & 3250    &         & 3250    \\ \hline
+	C24, C25 & QDC1   & 220    &         & 3250    & 3250    \\ \hline
+	C14, C15 & QDC2   & 220    & 1750    & 1750    &         \\ \hline
+	C4       & QDC1   & 127    &         &         & 1200    \\ \hline
+	C5       & QDC1   & 127    &         &         & 1100    \\ \hline
+	C6       & QDC1   & 127    & 900     &         &         \\ \hline
+	C7       & QDC1   & 127    &         & 1100    &         \\ \hline
+	C8       & QDC1   & 127    &         &         & 1200    \\ \hline
+	C9       & QDC1   & 127    &         & 1500    &         \\ \hline
+	C10      & QDC1   & 127    &         & 1350    &         \\ \hline
+	C11      & QDC1   & 127    &         & 1400    &         \\ \hline
+	C3       & QDC2   & 127    &         & 1300    &         \\ \hline
+	C4       & QDC2   & 127    &         & 1200    &         \\ \hline
+	C5       & QDC2   & 127    &         & 900     &         \\ \hline
+	C6       & QDC2   & 127    &         &         & 1200    \\ \hline
+	C7       & QDC2   & 127    & 1100    &         &         \\ \hline
+	C1       & QDC1   & 127    & 1100    &         &         \\ \hline
+	C2       & QDC1   & 127    & 1000    &         &         \\ \hline
+	C3       & QDC1   & 127    &         &         & 1000    \\ \hline
+	C1       & QDC2   & 127    & 1200    &         &         \\ \hline
+	C2       & QDC2   & 127    & 900     &         &         \\ \hline
+	&        &        &         &         &         \\ \hline
+	TOTAL    &        &        & 30400   & 30525   & 29975   \\ \hline
+\end{longtable}
+
+As fases ficam assim com cargas de:
+
+\begin{itemize}
+	\item Fase F1: $30.400$ $VA$
+	\item Fase F2: $30.525$ $VA$
+	\item Fase F3: $29.975$ $VA$
+\end{itemize}
+
+Não existe diferença significativa entre as cargas das fases, sendo portanto considerada equilibrada como carga trifásica.
+
+\section{FATOR DE CORREÇÃO POR AGRUPAMENTO DE CIRCUITOS}
+
+A escolha de agrupar circuitos elétricos em uma instalação pode ter vários motivos, incluindo a necessidade de facilitar a identificação e manutenção dos circuitos, a redução do risco de sobrecarga elétrica e a adequação às normas de segurança elétrica aplicáveis. Também pode ser uma forma de otimizar o uso da energia elétrica e garantir um melhor funcionamento dos equipamentos elétricos conectados.
+
+Determinar se haverá agrupamento de circuitos é importante para determinar fatores de cálculo, como o fator de agrupamento, um dos fatores de cálculo da corrente de projeto, que de fato determina o dimensionamento do fio dos circuitos em questão. Os fatores de agrupamento, por quantidade de condutores carregados e quantidade de circuitos são determinados pela tabela 42 da NBR-5410, que é mostrada na \autoref{fig:fator_de_agrupamento_nbr}:
+
+\figura
+{FATORES DE CORREÇÃO POR AGRUPAMENTO DE CIRCUITOS - NBR-5410} % Legenda
+{.8} % % da largura da área de texto
+{imagens/fator_de_agrupamento_nbr} % localização da figura
+{NBR-5410:2004} % fonte da figura
+{fator_de_agrupamento_nbr} % etiqueta
+{}
+{}
+\pagebreak
+O agrupamento de circuitos da edificação, junto com o fator de agrupamento ($FCA$) fica definido como mostrado na TABELA~\ref{tab:agrupamento_circuitos}
+
+\begin{longtable}{|lllll|}
+	\caption{AGRUPAMENTO MÁXIMO DE CIRCUITOS}
+	\label{tab:agrupamento_circuitos}\\
+	\hline
+	\endfirsthead
+	%
+	\endhead
+	%
+	\multicolumn{3}{|l|}{CIRCUITOS}                                                                & \multicolumn{1}{l|}{TOTAL DE CIRCUITOS} & FCA \\ \hline
+	\multicolumn{1}{|l|}{C1}       & \multicolumn{1}{l|}{C4}       & \multicolumn{1}{l|}{C12, C13} & \multicolumn{1}{l|}{3}                  & 0,7 \\ \hline
+	\multicolumn{1}{|l|}{C4}       & \multicolumn{1}{l|}{C5}       & \multicolumn{1}{l|}{C14, C15} & \multicolumn{1}{l|}{3}                  & 0,7 \\ \hline
+	\multicolumn{1}{|l|}{C3}       & \multicolumn{1}{l|}{C26, C27} & \multicolumn{1}{l|}{}         & \multicolumn{1}{l|}{2}                  & 0,8 \\ \hline
+	\multicolumn{1}{|l|}{C2}       & \multicolumn{1}{l|}{C6}       & \multicolumn{1}{l|}{C18, C19} & \multicolumn{1}{l|}{3}                  & 0,7 \\ \hline
+	\multicolumn{1}{|l|}{C8}       & \multicolumn{1}{l|}{C9}       & \multicolumn{1}{l|}{C10}      & \multicolumn{1}{l|}{3}                  & 0,7 \\ \hline
+	\multicolumn{1}{|l|}{C2}       & \multicolumn{1}{l|}{C7}       & \multicolumn{1}{l|}{C20, C21} & \multicolumn{1}{l|}{3}                  & 0,7 \\ \hline
+	\multicolumn{1}{|l|}{C3}      & \multicolumn{1}{l|}{C11}      & \multicolumn{1}{l|}{C16, C17} & \multicolumn{1}{l|}{3} & 0,7 \\ \hline
+	\multicolumn{1}{|l|}{C22,C23} & \multicolumn{1}{l|}{C24, C25} & \multicolumn{1}{l|}{}         & \multicolumn{1}{l|}{2} & 0,8 \\ \hline
+	\multicolumn{1}{|l|}{C28, C29} & \multicolumn{1}{l|}{}         & \multicolumn{1}{l|}{}         & \multicolumn{1}{l|}{1}                  & 1   \\ \hline
+	\multicolumn{1}{|l|}{C1}       & \multicolumn{1}{l|}{C3}       & \multicolumn{1}{l|}{C8, C9}   & \multicolumn{1}{l|}{3}                  & 0,7 \\ \hline
+	\multicolumn{1}{|l|}{C4}       & \multicolumn{1}{l|}{C16, C17} & \multicolumn{1}{l|}{}         & \multicolumn{1}{l|}{2}                  & 0,8 \\ \hline
+	\multicolumn{1}{|l|}{C6}       & \multicolumn{1}{l|}{C18, C19} & \multicolumn{1}{l|}{}         & \multicolumn{1}{l|}{2}                  & 0,8 \\ \hline
+	\multicolumn{1}{|l|}{C1}       & \multicolumn{1}{l|}{C5}       & \multicolumn{1}{l|}{C14, C15} & \multicolumn{1}{l|}{3}                  & 0,7 \\ \hline
+	\multicolumn{1}{|l|}{C2}       & \multicolumn{1}{l|}{C7}       & \multicolumn{1}{l|}{C12, C13} & \multicolumn{1}{l|}{3}                  & 0,7 \\ \hline
+	\multicolumn{1}{|l|}{C4}       & \multicolumn{1}{l|}{C10, C11} & \multicolumn{1}{l|}{}         & \multicolumn{1}{l|}{2}                  & 0,8 \\ \hline
+\end{longtable}
+
+\section{FATOR DE CORREÇÃO DE TEMPERATURA}
+
+A temperatura média anual de Curitiba é de cerca de 16°C. No verão, a temperatura média fica em torno de 21°C e no inverno a temperatura média fica em torno de 12°C. No entanto, é importante lembrar que esses valores são apenas médias e as temperaturas podem variar bastante ao longo do ano e até mesmo dentro do mesmo dia.
+
+O fator de correção de temperatura, para a temperatura ambiente e de solo, é dado pela tabela 40 da NMBR-5410, mostrada na \autoref{fig:fator_temperatura_nbr}:
+
+\figura
+{FATORES DE CORREÇÃO DE TEMPERATURA - NBR-5410} % Legenda
+{.8} % % da largura da área de texto
+{imagens/fator_temperatura_nbr} % localização da figura
+{NBR-5410:2004} % fonte da figura
+{fator_temperatura_nbr} % etiqueta
+{}
+{}
+
+A temperatura considerada no projeto é 30°C, para linhas não subterrâneas e embutidas em alvenaria e lajes, e de 20°C para linhas subterrâneas, para ser conservador. Portanto, O fator de correção de temperatura ($FCT$) é igual a 1.
+
+\section{DIMENSIONAMENTO DE CONDUTORES}
+
+\subsection{CRITÉRIOS DE CÁLCULO}
+
+O dimensionamento dos condutores é feito seguindo o roteiro abaixo:
+
+\begin{itemize}
+	\item Determina-se as seções dos condutores conforme a Capacidade de Corrente;
+	\item Determina-se as seções dos condutores pelo Limite de Queda de Tensão;
+	\item Determina-se as seções dos condutores pela seção mínima;
+\end{itemize}
+
+\subsubsection{CAPACIDADE DE CORRENTE}
+
+A corrente corrigida é calculada da seguinte maneira:
+
+\begin{equation}
+	I_p = \frac{I_n}{FCT \times FCA} 
+	\label{eqn:corrente_corrigida}
+\end{equation}
+
+Onde:
+
+\begin{itemize}
+	\item $I_p$: corrente corrigida;
+	\item $I_n$: corrente de projeto;
+	\begin{itemize}
+		\item Para circuitos terminais será a corrente de projeto da maior derivação do disjuntor;
+		\item Para circuitos de distribuição será a maior corrente de fase;
+	\end{itemize}
+	\item $FCT$: fator de correção de temperatura;
+	\item $FCA$: fator de correção por agrupamento de circuitos;
+\end{itemize}
+
+A corrente de projeto é calculada da seguinte forma:
+
+\begin{equation}
+	I_n = \frac{P_n}{\eta_f \times V \times cos(\phi) \times \eta}
+	\label{eqn:corrente_projeto}
+\end{equation}
+
+Onde:
+
+\begin{itemize}
+	\item $I_n$: corrente de projeto;
+	\item $P_n$:  Potência nominal, em $W$;
+	\item $\eta_f$: número de fases do circuito;
+	\begin{itemize}
+		\item Para circuitos com esquema F+N, F+F o valor é 1;
+		\item Para circuitos com esquema 3F+N o valor é 3;
+		\item Para circuitos com esquema 3F o valor é $\sqrt{3}$;
+	\end{itemize}
+	\item $V$: Tensão nominal;
+	\begin{itemize}
+		\item Para circuitos com esquema F+N e 3F+N é utilizado o valor de tensão de fase;
+		\item Para circuitos com esquema F+F e 3F é utilizado o valor de tensão de linha;
+	\end{itemize}
+	\item $cos(\phi)$: fator de potência do equipamento;
+	\item $\eta$: rendimento do equipamento.
+\end{itemize}
+
+Após calculada a corrente projeto de cada equipamento instalado em um determinado circuito, a corrente de projeto do circuito será a soma de todas as correntes de projeto dos equipamentos ligados ao circuito em questão.
+
+\subsubsection{QUEDA DE TENSÃO}
+
+O método utilizado para cálculo da queda de tensão é o método da tensão unitária.
+
+O método da tensão unitária é um dos métodos utilizados para calcular a queda de tensão em uma instalação elétrica. Esse método é baseado no cálculo da queda de tensão por unidade de comprimento do condutor, considerando a corrente elétrica que passa pelo mesmo.
+
+O cálculo da queda de tensão pelo método da tensão unitária pode ser realizado a partir da seguinte equação:
+
+\begin{equation}
+	\Delta V = K \times I \times L
+\end{equation}
+
+Onde:
+
+\begin{itemize}
+	\item $\Delta V$ é a queda de tensão no condutor, em volts (V);
+	\item $K$ é a constante de proporcionalidade que relaciona a queda de tensão com a corrente e o comprimento do condutor, em ohms por quilômetro ($\frac{\Omega}{km}$);
+	\item $I$ é a corrente elétrica que passa pelo condutor, em amperes ($A$);
+	\item $L$ é o comprimento do condutor, em quilômetros ($km$).	
+\end{itemize}
+
+
+Para calcular o valor da constante $K$, é necessário conhecer a resistividade do material do condutor e sua seção transversal. A NBR-5410 define valores padrão para a resistividade dos condutores de cobre e alumínio, que podem ser utilizados para esse cálculo.
+
+É importante ressaltar que a queda de tensão deve ser limitada a valores aceitáveis para garantir o correto funcionamento dos equipamentos elétricos. A NBR-5410 estabelece limites de queda de tensão para diferentes tipos de circuitos, que devem ser respeitados durante o projeto e a instalação da rede elétrica.
+
+a constante $K$ é calculada pela seguinte equação:
+
+\begin{equation}
+	K = \frac{e_{\%} \times V}{I_n \times L}
+\end{equation}
+
+Onde:
+
+\begin{itemize}
+	\item $e_{\%}$: queda de tensão em porcentagem;
+	\item $V$: Tensão nominal;
+	\item $I_n$: Corrente de projeto;
+	\item $L$: comprimento em quilômetros.
+\end{itemize}
+
+\subsubsection{SEÇÃO MÍNIMA}
+
+A NBR-5410 define valores mínimos de seção transversal para os condutores utilizados em instalações elétricas de baixa tensão. Esses valores são definidos com base na corrente elétrica e na finalidade do circuito.
+
+De forma geral, para circuitos de iluminação, a seção mínima dos condutores deve ser de $1,5$ $mm^2$ para correntes até $10$ $A$, e $2,5$ $mm^2$ para correntes entre $10$ $A$ e $16$ $A$. Para circuitos de tomadas, a seção mínima deve ser de $2,5$ $mm^2$ para correntes até $16$ $A$, e $4$ $mm^2$ para correntes entre $16$ $A$ e $20$ $A$.
+
+Para circuitos de equipamentos específicos, como chuveiros elétricos, ar-condicionado, motores elétricos, entre outros, a seção mínima dos condutores deve ser definida com base nas especificações do fabricante do equipamento e nos critérios definidos pela NBR 5410.
+
+Vale lembrar que a seção transversal dos condutores deve ser capaz de suportar a corrente elétrica prevista no circuito, evitando sobreaquecimentos e riscos de incêndio.
+\pagebreak
+\subsection{CÁLCULO DOS CONDUTORES}
+
+Aplicando os critérios de cálculo aos valores da TABELA~\ref{tab:previsao_de_carga} resulta nos valores da TABELA~\ref{tab:calculo_de_condutores}:
+
+\begin{table}[H]
+	\caption{DIMENSIONAMENTO DE CONDUTORES - TODOS OS CRITÉRIOS}
+	\label{tab:calculo_de_condutores}
+	\resizebox{\columnwidth}{!}{%
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+		\hline
+		CIRCUITO &
+		CORRENTE DE PROJETO IP &
+		FCT &
+		FCA &
+		CORRENTE DE CORRIGIDA IP' &
+		\begin{tabular}[c]{@{}c@{}}COMPRIMENTO \\  L (m)\end{tabular} &
+		QUEDA DE TENSÃO &
+		I CONDUTOR &
+		DIA FASE CORRENTE &
+		DIA FASE QUEDA &
+		DIA NEUTRO &
+		DIA PROTEÇÃO \\ \hline
+		C12, C13 & 16,364 & 1 & 0,70 & 23,38 & 12,23 & 43,97 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C20, C21 & 20,455 & 1 & 0,70 & 29,22 & 14,86 & 28,95 & 32,00 & 4   &  & 4   & 4   \\ \hline
+		C26, C27 & 29,545 & 1 & 0,80 & 36,93 & 5,88  & 50,65 & 41,00 & 6   &  & 6   & 6   \\ \hline
+		C28, C29 & 29,545 & 1 & 1,00 & 29,55 & 9,36  & 31,82 & 32,00 & 4   &  & 4   & 4   \\ \hline
+		C14, C15 & 16,364 & 1 & 0,70 & 23,38 & 10,85 & 49,56 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C16, C17 & 16,364 & 1 & 0,70 & 23,38 & 13,79 & 39,00 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C12, C13 & 16,364 & 1 & 0,70 & 23,38 & 13,35 & 40,28 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C18, C19 & 29,545 & 1 & 0,80 & 36,93 & 11,36 & 26,22 & 41,00 & 6   &  & 6   & 6   \\ \hline
+		C8, C9   & 16,364 & 1 & 0,70 & 23,38 & 6,86  & 78,39 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C16, C17 & 29,545 & 1 & 0,80 & 36,93 & 9,22  & 32,30 & 41,00 & 6   &  & 6   & 6   \\ \hline
+		C10, C11 & 16,364 & 1 & 0,80 & 20,45 & 9,04  & 59,49 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C18, C19 & 7,500  & 1 & 0,70 & 10,71 & 19,92 & 58,90 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C22, C23 & 29,545 & 1 & 0,80 & 36,93 & 14,70 & 20,26 & 41,00 & 6   &  & 6   & 6   \\ \hline
+		C24, C25 & 29,545 & 1 & 0,80 & 36,93 & 14,84 & 20,07 & 41,00 & 6   &  & 6   & 6   \\ \hline
+		C14, C15 & 15,909 & 1 & 0,70 & 22,73 & 16,83 & 32,87 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C4       & 9,449  & 1 & 0,70 & 13,50 & 15,14 & 35,51 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C5       & 8,661  & 1 & 0,70 & 12,37 & 14,05 & 41,74 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C6       & 7,087  & 1 & 0,70 & 10,12 & 20,72 & 34,60 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C7       & 8,661  & 1 & 0,70 & 12,37 & 12,06 & 48,63 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C8       & 9,449  & 1 & 0,70 & 13,50 & 14,12 & 38,08 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C9       & 11,811 & 1 & 0,70 & 16,87 & 15,70 & 27,40 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C10      & 10,630 & 1 & 0,70 & 15,19 & 16,48 & 29,00 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C11      & 11,024 & 1 & 0,70 & 15,75 & 17,06 & 27,01 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C3       & 10,236 & 1 & 0,70 & 14,62 & 14,02 & 35,40 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C4       & 9,449  & 1 & 0,80 & 11,81 & 10,86 & 49,51 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C5       & 7,087  & 1 & 0,70 & 10,12 & 14,64 & 48,96 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C6       & 9,449  & 1 & 0,80 & 11,81 & 17,03 & 31,57 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C7       & 8,661  & 1 & 0,70 & 12,37 & 16,88 & 34,75 & 24,00 & 2,5 &  & 2,5 & 2,5 \\ \hline
+		C1       & 8,661  & 1 & 0,70 & 12,37 & 16,64 & 35,25 & 17,50 & 1,5 &  & 1,5 & 1,5 \\ \hline
+		C2       & 7,874  & 1 & 0,70 & 11,25 & 15,50 & 41,62 & 17,50 & 1,5 &  & 1,5 & 1,5 \\ \hline
+		C3       & 7,874  & 1 & 0,70 & 11,25 & 17,87 & 36,10 & 17,50 & 1,5 &  & 1,5 & 1,5 \\ \hline
+		C1       & 9,449  & 1 & 0,70 & 13,50 & 7,98  & 67,37 & 17,50 & 1,5 &  & 1,5 & 1,5 \\ \hline
+		C2       & 7,087  & 1 & 0,70 & 10,12 & 12,63 & 56,76 & 17,50 & 1,5 &  & 1,5 & 1,5 \\ \hline
+	\end{tabular}}
+\end{table}
+
+A tensão unitária não é suficiente para considerar o critério da queda de tensão, portanto a decisão fica entre o critério da capacidade de corrente e a seção mínima. Para os circuitos de iluminação e tomadas de uso geral, o critério da seção mínima mostrou-se mais do que suficiente.
+
+As tomadas de uso específico foram calculadas pelo critério da capacidade de corrente. Para os circuitos com seção de $4$ $mm^2$, decidiu-se optar por cabos de $6$ $mm^2$ por padronização da instalação.
+
+Os cabos de proteção são, segundo a norma NBR-5410, de seção igual a fase e neutro.
+
+\section{DIMENSIONAMENTO DE ELETRODUTOS}
+
+O dimensionamento de eletrodutos é uma etapa importante no projeto de uma instalação elétrica, pois os eletrodutos são responsáveis por proteger e conduzir os condutores elétricos de forma segura e eficiente. O dimensionamento adequado dos eletrodutos é importante para evitar o superaquecimento dos condutores e garantir a dissipação de calor, bem como para permitir a manutenção e a passagem de novos condutores no futuro.
+
+O dimensionamento de eletrodutos deve levar em consideração a quantidade de condutores que serão instalados, sua seção transversal, o tipo de instalação (aparente ou embutida), o tipo de eletroduto (flexível ou rígido), a temperatura ambiente, entre outros fatores.
+
+A NBR 5410 estabelece critérios para o dimensionamento de eletrodutos, levando em conta a quantidade e o diâmetro dos condutores, bem como a disposição dos eletrodutos no ambiente. Para isso, a norma apresenta tabelas e fórmulas que permitem calcular o diâmetro mínimo do eletroduto, a partir do número de condutores, sua seção transversal e o tipo de instalação.
+
+Além dos critérios estabelecidos pela norma, o dimensionamento de eletrodutos deve levar em conta a facilidade de manutenção e inspeção dos condutores, bem como a necessidade de espaço para passagem de novos cabos no futuro. Também é importante considerar a possibilidade de expansão da instalação elétrica, prevendo o uso de eletrodutos com capacidade para suportar novos circuitos e equipamentos.
+
+A taxa máxima de ocupação em relação à área da seção transversal dos
+eletrodutos não deve ser superior a:
+
+
+\begin{itemize}
+	
+	\item 53\% no caso de um condutor ou cabo;
+	\item 31\% no caso de dois condutores ou cabos;
+	\item 40\% no caso de três ou mais condutores ou cabos
+	
+\end{itemize}
+
+A área útil de um eletroduto é definido como:
+
+\begin{equation}
+	A_e = \pi \times \frac{D_i^2}{4}
+\end{equation}
+
+E considerando que a soma das áreas externas dos condutores a serem instalados é dado por:
+
+\begin{equation}
+	\sum A_{cond}
+\end{equation}
+
+Então, o diâmetro interno do eletroduto é dado por:
+
+\begin{equation}
+	D_d = \sqrt{\frac{4 \times \sum A_{cond}}{f \times \pi}}
+\end{equation}
+
+Onde $f$ é a taxa de ocupação do eletroduto.
+
+Segue-se um roteiro básico:
+
+\begin{itemize}
+	\item Determina-se a seção total ocupada pelos	condutores usando a tabela de fabricantes de condutores.
+	\item Determina-se o diâmetro externo nominal do eletroduto
+	(mm) consultando as	tabelas de eletrodutos
+	\item Caso os condutores instalados em um mesmo	eletroduto sejam do mesmo tipo e tenham seções nominais iguais, pode-se eliminar os passos anteriores e encontrar o	diâmetro externo nominal	do eletroduto em função	da quantidade e seção dos condutores diretamente	por tabelas específicas
+\end{itemize}
+
+No caso, o terceiro passo do roteiro não é utilizado pois os circuitos agrupados são de seções nominais diferentes. Portanto, somente os 2 primeiros passos são utilizados.
+
+Aplicados os 2 passos citados, chega-se à conclusão de que os eletrodutos indicados são de $\frac{3}{4}\inches$ e $1\inches$ de diâmetro interno. Por padronização, escolhe-se o eletroduto corrugado de $32$ $mm$ ou $1$ $\frac{1}{4}\inches$ de diâmetro externo.
+
+\section{DIMENSIONAMENTO DOS DISPOSITIVOS DE PROTEÇÃO}
+
+O dimensionamento dos dispositivos de proteção elétrica é fundamental para garantir a segurança da instalação elétrica e dos usuários, evitando riscos de curto-circuito, sobrecarga e outros tipos de falhas elétricas.
+
+Os dispositivos de proteção elétrica mais comuns em uma instalação elétrica de baixa tensão incluem os disjuntores, os fusíveis, os interruptores diferenciais residuais (IDRs) e os dispositivos de proteção contra surtos (DPS).
+
+O dimensionamento desses dispositivos deve ser realizado levando em consideração a corrente elétrica prevista no circuito, bem como as características dos equipamentos elétricos a serem protegidos. Os disjuntores, por exemplo, devem ser dimensionados para suportar a corrente elétrica máxima prevista no circuito, evitando o risco de sobrecarga. Os fusíveis também devem ser dimensionados para suportar a corrente máxima, além de serem escolhidos de acordo com a curva de atuação necessária para a proteção do circuito.
+
+Já os interruptores diferenciais residuais (IDRs) são responsáveis por proteger as pessoas contra choques elétricos, detectando correntes de fuga no circuito e interrompendo o fornecimento de energia elétrica. O dimensionamento dos IDRs deve levar em conta a corrente elétrica máxima do circuito e o tempo de atuação necessário para garantir a proteção adequada.
+
+Por fim, os dispositivos de proteção contra surtos (DPS) são responsáveis por proteger os equipamentos eletrônicos contra danos causados por surtos de tensão. O dimensionamento dos DPS deve levar em conta a tensão nominal da instalação elétrica, bem como a capacidade de absorção dos surtos de tensão.
+
+\subsection{DISJUNTORES DE PROTEÇÃO (DP)}
+
+Os disjuntores devem proteger contra sobrecarga e curto-circuito. O circuito mais longo da residência tem cerca de 18 metros de comprimento, portanto, desconsidera-se o calculo de curto-circuito para efeitos de dimensionamento, considerando-se somente a corrente máxima de sobrecarga.
+
+Utilizando a corrente máxima de sobrecarga como critério de dimensionamento, chega-se aos resultados mostrados na TABELA~\ref{tab:dimensionamento_disjuntores} para cada circuito:
+
+
+\begin{longtable}{|c|c|c|c|c|}
+	\caption{DIMENSIONAMENTO DOS DISJUNTORES POR QUADRO E CIRCUITO}
+	\label{tab:dimensionamento_disjuntores}\\
+	\hline
+	CIRCUITO                       & QUADRO & I CONDUTOR & DISJUNTOR CORRENTE & N POLOS \\ \hline
+	\endfirsthead
+	%
+	\endhead
+	%
+	C12, C13                       & QDC1   & 24,00      & 20                 & 2       \\ \hline
+	C20, C21                       & QDC1   & 32,00      & 30                 & 2       \\ \hline
+	\multicolumn{1}{|l|}{C26, C27} & QDC1   & 41,00      & 40                 & 2       \\ \hline
+	\multicolumn{1}{|l|}{C28, C29} & QDC1   & 32,00      & 30                 & 2       \\ \hline
+	\multicolumn{1}{|l|}{C14, C15} & QDC1   & 24,00      & 20                 & 2       \\ \hline
+	\multicolumn{1}{|l|}{C16, C17} & QDC1   & 24,00      & 20                 & 2       \\ \hline
+	C12, C13                       & QDC2   & 24,00      & 20                 & 2       \\ \hline
+	C18, C19                       & QDC2   & 41,00      & 40                 & 2       \\ \hline
+	C8, C9                         & QDC2   & 24,00      & 20                 & 2       \\ \hline
+	C16, C17                       & QDC2   & 41,00      & 40                 & 2       \\ \hline
+	C10, C11                       & QDC2   & 24,00      & 20                 & 2       \\ \hline
+	\multicolumn{1}{|l|}{C18, C19} & QDC1   & 24,00      & 20                 & 2       \\ \hline
+	C22, C23                       & QDC1   & 41,00      & 40                 & 2       \\ \hline
+	C24, C25                       & QDC1   & 41,00      & 40                 & 2       \\ \hline
+	C14, C15                       & QDC2   & 24,00      & 20                 & 2       \\ \hline
+	C4                             & QDC1   & 24,00      & 20                 & 1       \\ \hline
+	C5                             & QDC1   & 24,00      & 20                 & 1       \\ \hline
+	C6                             & QDC1   & 24,00      & 20                 & 1       \\ \hline
+	C7                             & QDC1   & 24,00      & 20                 & 1       \\ \hline
+	C8                             & QDC1   & 24,00      & 20                 & 1       \\ \hline
+	C9                             & QDC1   & 24,00      & 20                 & 1       \\ \hline
+	C10                            & QDC1   & 24,00      & 20                 & 1       \\ \hline
+	C11                            & QDC1   & 24,00      & 20                 & 1       \\ \hline
+	C3                             & QDC2   & 24,00      & 20                 & 1       \\ \hline
+	C4                             & QDC2   & 24,00      & 20                 & 1       \\ \hline
+	C5                             & QDC2   & 24,00      & 20                 & 1       \\ \hline
+	C6                             & QDC2   & 24,00      & 20                 & 1       \\ \hline
+	C7                             & QDC2   & 24,00      & 20                 & 1       \\ \hline
+	C1                             & QDC1   & 17,50      & 15                 & 1       \\ \hline
+	C2                             & QDC1   & 17,50      & 15                 & 1       \\ \hline
+	C3                             & QDC1   & 17,50      & 15                 & 1       \\ \hline
+	C1                             & QDC2   & 17,50      & 15                 & 1       \\ \hline
+	C2                             & QDC2   & 17,50      & 15                 & 1       \\ \hline
+\end{longtable}
+
+Como disjuntor geral dos quadros de distribuição, escolhe-se:
+
+\begin{itemize}
+	\item QDC1: $80$ $A$
+	\item QDC2: $70$ $A$
+\end{itemize}
+
+\subsection{DISPOSITIVOS DE PROTEÇÃO CONTRA SURTOS (DPS)}
+
+O cálculo de DPS (Dispositivos de Proteção contra Surtos) é feito levando em consideração a tensão nominal da instalação elétrica e a capacidade de absorção de surtos de tensão dos equipamentos eletrônicos que serão protegidos. O objetivo é garantir que os equipamentos estejam adequadamente protegidos contra surtos de tensão que possam causar danos ou falhas.
+
+O cálculo do DPS envolve a análise da curva de atuação do dispositivo, que determina a capacidade de absorção de surtos de tensão em função do nível de tensão aplicado. Essa curva de atuação é definida pelo fabricante do DPS e deve ser levada em conta no momento do cálculo.
+
+O cálculo é feito a partir da seguinte fórmula:
+\begin{equation}
+	P = \frac{U_c \times I_{sc} \times K \times S}{U_p}
+\end{equation}
+
+Onde:
+
+\begin{itemize}
+	\item $P$: é a capacidade de corrente de impulso do DPS, em kA;
+	\item $U_c$: é a tensão nominal da instalação elétrica, em volts;
+	\item $I_{sc}$: é a corrente de curto-circuito máxima prevista na instalação elétrica, em kA;
+	\item $K$: é o fator de correção, que leva em conta as características da instalação elétrica (fator de potência, comprimento dos cabos, etc.);
+	\item $S$: é o fator de proteção, que leva em conta o tipo de equipamento a ser protegido (por exemplo, computadores, equipamentos de telecomunicações, etc.);
+	\item $U_p$: é a tensão residual máxima permitida após o surto de tensão, em volts.
+	
+\end{itemize}
+
+Após o cálculo, é importante selecionar um DPS com capacidade de corrente de impulso igual ou superior ao valor obtido na fórmula, levando em conta também as normas e regulamentos locais.
+
+Para um fator de proteção $S=1$, $K=0,8$, $U_p=600V$, $I_{sc}=10000A$ (Assumida) e $U_c=127V$, obtém-se:
+
+\begin{equation}
+	\begin{split}
+		P = \frac{127 \times 0,8 \times 1 \times 10000}{600} \\
+		P = 1693,33 A
+	\end{split}
+\end{equation}
+
+Portanto, DPS com correntes de pulso maiores que $1,7$ $kA$ servem ao propósito.
+
+É bastante comum no mercado DPS com correntes de pulso de $5kA$ e tensão nominal de $275$ $V$, sendo este o valor escolhido como calculado para os DPS da instalação elétrica.
+
+Para o QDC1, utiliza-se 4 DPS de $5kA$ e tensão nominal de $275$ $V$, sendo o mesmo válido para o QDC2.
+
+\subsection{DISPOSITIVOS DIFERENCIAIS RESIDUAIS (DR)}
+
+O cálculo do DR (Dispositivo Diferencial Residual) é feito para garantir a proteção das pessoas contra choques elétricos, desligando o circuito elétrico em caso de fuga de corrente elétrica.
+
+O IDR é calculado a partir da corrente nominal do circuito elétrico que ele vai proteger, que é geralmente igual ou inferior à corrente nominal do dispositivo de proteção contra sobrecorrente (disjuntor ou fusível) correspondente.
+
+A norma NBR-5410 exige que circuitos em áreas úmidas e tomadas de uso específico sejam protegidos por DRs. Para a proteção da vida humana, é necessário também que a corrente de sensibilidade seja igual ou inferior a $30$ $mA$.
+
+
+Dos circuitos de tomadas de uso específico, tem-se a previsão de circuitos com DR mostrada na TABELA~\ref{tab:dr}:
+
+% Please add the following required packages to your document preamble:
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}{|c|c|c|c|c|}
+	\caption{DIMENSIONAMENTO DOS DISPOSITIVOS DIFERENCIAIS RESIDUAIS}
+	\label{tab:dr}\\
+	\hline
+	CIRCUITO                       & QUADRO & I CONDUTOR & DR (I=30mA) & N POLOS \\ \hline
+	\endfirsthead
+	%
+	\endhead
+	%
+	C12, C13                       & QDC1   & 24,00      & 20          & 2       \\ \hline
+	C20, C21                       & QDC1   & 32,00      & 30          & 2       \\ \hline
+	\multicolumn{1}{|l|}{C26, C27} & QDC1   & 41,00      & 40          & 2       \\ \hline
+	\multicolumn{1}{|l|}{C28, C29} & QDC1   & 32,00      & 30          & 2       \\ \hline
+	\multicolumn{1}{|l|}{C14, C15} & QDC1   & 24,00      & 20          & 2       \\ \hline
+	\multicolumn{1}{|l|}{C16, C17} & QDC1   & 24,00      & 20          & 2       \\ \hline
+	C12, C13                       & QDC2   & 24,00      & 20          & 2       \\ \hline
+	C18, C19                       & QDC2   & 41,00      & 40          & 2       \\ \hline
+	C8, C9                         & QDC2   & 24,00      & 20          & 2       \\ \hline
+	C16, C17                       & QDC2   & 41,00      & 40          & 2       \\ \hline
+	C10, C11                       & QDC2   & 24,00      & 20          & 2       \\ \hline
+	\multicolumn{1}{|l|}{C18, C19} & QDC1   & 24,00      & 20          & 2       \\ \hline
+	C22, C23                       & QDC1   & 41,00      & 40          & 2       \\ \hline
+	C24, C25                       & QDC1   & 41,00      & 40          & 2       \\ \hline
+	C14, C15                       & QDC2   & 24,00      & 20          & 2       \\ \hline
+\end{longtable}
+
