@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.27)  13 FEB 2023 19:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.5)  14 FEB 2023 08:55
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **MemorialDescritivoInstalacoesPrediais.tex
 (./MemorialDescritivoInstalacoesPrediais.tex
@@ -507,7 +507,7 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count322
 \U@D=\dimen187
-\l@unhyphenated=\language8
+\l@unhyphenated=\language87
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
@@ -516,7 +516,7 @@ Package: babel 2022/01/26 3.70 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
-(babel)             (\language7). Reported on input line 111.
+(babel)             (\language72). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
@@ -1393,228 +1393,71 @@ Package caption Info: longtable package is loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
-Package: minted 2021/12/24 v2.6 Yet another Pygments shim for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
-Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
-
-(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
-\FV@CodeLineNo=\count440
-\FV@InFile=\read6
-\FV@TabBox=\box130
-\c@FancyVerbLine=\count441
-\FV@StepNumber=\count442
-\FV@OutFile=\write6
-)
-(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-)
-(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
-Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count443
-\output=\toks75
-\linenoprevgraf=\count444
-\linenumbersep=\dimen334
-\linenumberwidth=\dimen335
-\c@linenumber=\count445
-\c@pagewiselinenumber=\count446
-\c@LN@truepage=\count447
-\c@internallinenumber=\count448
-\c@internallinenumbers=\count449
-\quotelinenumbersep=\dimen336
-\bframerule=\dimen337
-\bframesep=\dimen338
-\bframebox=\box131
-
-
-LaTeX Warning: Command \@parboxrestore  has changed.
-               Check if current package is valid.
-
-LaTeX Info: Redefining \\ on input line 3056.
-)
-
-Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a wa
-rning from the lineno package on input line 37.
-
-\c@FV@TrueTabGroupLevel=\count450
-\c@FV@TrueTabCounter=\count451
-\FV@TabBox@Group=\box132
-\FV@TmpLength=\skip272
-\c@FV@HighlightLinesStart=\count452
-\c@FV@HighlightLinesStop=\count453
-\FV@LoopCount=\count454
-\FV@NCharsBox=\box133
-\FV@BreakIndent=\dimen339
-\FV@BreakIndentNChars=\count455
-\FV@BreakSymbolSepLeft=\dimen340
-\FV@BreakSymbolSepLeftNChars=\count456
-\FV@BreakSymbolSepRight=\dimen341
-\FV@BreakSymbolSepRightNChars=\count457
-\FV@BreakSymbolIndentLeft=\dimen342
-\FV@BreakSymbolIndentLeftNChars=\count458
-\FV@BreakSymbolIndentRight=\dimen343
-\FV@BreakSymbolIndentRightNChars=\count459
-\c@FancyVerbLineBreakLast=\count460
-\FV@LineBox=\box134
-\FV@LineIndentBox=\box135
-\FV@LineWidth=\dimen344
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Unrestricted shell escape enabled on input line 75.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
-Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
-
-(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
-Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-runsystem(uname -s > "MemorialDescritivoInstalacoesPrediais.w18")...executed.
-
-
-(./MemorialDescritivoInstalacoesPrediais.w18)
-runsystem(rm -- "MemorialDescritivoInstalacoesPrediais.w18")...executed.
-
-)
-(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
-Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip273
-\fb@frw=\dimen345
-\fb@frh=\dimen346
-)
-
-Package minted Warning: Unexpected value for option `chapter'
-(minted)                is ignored on input line 78.
-
-
-Package minted Warning: Unexpected value for option `section'
-(minted)                is ignored on input line 78.
-
-\minted@appexistsfile=\read7
-\minted@bgbox=\box136
-\minted@code=\write7
-\c@minted@FancyVerbLineTemp=\count461
-\c@minted@pygmentizecounter=\count462
-\@float@every@listing=\toks76
-\c@listing=\count463
-)
-runsystem(mkdir -p _minted-MemorialDescritivoInstalacoesPrediais)...executed.
-
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryautomata.code.tex
-File: tikzlibraryautomata.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodepartlowerbox=\box137
-\pgfnodeparttwobox=\box138
-\pgfnodepartthreebox=\box139
-\pgfnodepartfourbox=\box140
-\pgfnodeparttwentybox=\box141
-\pgfnodepartnineteenbox=\box142
-\pgfnodeparteighteenbox=\box143
-\pgfnodepartseventeenbox=\box144
-\pgfnodepartsixteenbox=\box145
-\pgfnodepartfifteenbox=\box146
-\pgfnodepartfourteenbox=\box147
-\pgfnodepartthirteenbox=\box148
-\pgfnodeparttwelvebox=\box149
-\pgfnodepartelevenbox=\box150
-\pgfnodeparttenbox=\box151
-\pgfnodepartninebox=\box152
-\pgfnodeparteightbox=\box153
-\pgfnodepartsevenbox=\box154
-\pgfnodepartsixbox=\box155
-\pgfnodepartfivebox=\box156
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
-tex
-File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen347
-)) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count464
+\lrq@indent=\count440
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count465
-\c@listtotal=\count466
-\c@listcount=\count467
-\c@liststart=\count468
-\c@liststop=\count469
-\c@citecount=\count470
-\c@citetotal=\count471
-\c@multicitecount=\count472
-\c@multicitetotal=\count473
-\c@instcount=\count474
-\c@maxnames=\count475
-\c@minnames=\count476
-\c@maxitems=\count477
-\c@minitems=\count478
-\c@citecounter=\count479
-\c@maxcitecounter=\count480
-\c@savedcitecounter=\count481
-\c@uniquelist=\count482
-\c@uniquename=\count483
-\c@refsection=\count484
-\c@refsegment=\count485
-\c@maxextratitle=\count486
-\c@maxextratitleyear=\count487
-\c@maxextraname=\count488
-\c@maxextradate=\count489
-\c@maxextraalpha=\count490
-\c@abbrvpenalty=\count491
-\c@highnamepenalty=\count492
-\c@lownamepenalty=\count493
-\c@maxparens=\count494
-\c@parenlevel=\count495
-\blx@tempcnta=\count496
-\blx@tempcntb=\count497
-\blx@tempcntc=\count498
-\c@blx@maxsection=\count499
-\c@blx@maxsegment@0=\count500
-\blx@notetype=\count501
-\blx@parenlevel@text=\count502
-\blx@parenlevel@foot=\count503
-\c@blx@sectionciteorder@0=\count504
-\blx@entrysetcounter=\count505
-\blx@biblioinstance=\count506
-\labelnumberwidth=\skip274
-\labelalphawidth=\skip275
-\biblabelsep=\skip276
-\bibnamesep=\skip277
-\bibinitsep=\skip278
-\bibparsep=\skip279
-\bibhang=\skip280
-\blx@bcfin=\read8
-\blx@bcfout=\write8
-\blx@langwohyphens=\language9
-\c@mincomprange=\count507
-\c@maxcomprange=\count508
-\c@mincompwidth=\count509
+\c@tabx@nest=\count441
+\c@listtotal=\count442
+\c@listcount=\count443
+\c@liststart=\count444
+\c@liststop=\count445
+\c@citecount=\count446
+\c@citetotal=\count447
+\c@multicitecount=\count448
+\c@multicitetotal=\count449
+\c@instcount=\count450
+\c@maxnames=\count451
+\c@minnames=\count452
+\c@maxitems=\count453
+\c@minitems=\count454
+\c@citecounter=\count455
+\c@maxcitecounter=\count456
+\c@savedcitecounter=\count457
+\c@uniquelist=\count458
+\c@uniquename=\count459
+\c@refsection=\count460
+\c@refsegment=\count461
+\c@maxextratitle=\count462
+\c@maxextratitleyear=\count463
+\c@maxextraname=\count464
+\c@maxextradate=\count465
+\c@maxextraalpha=\count466
+\c@abbrvpenalty=\count467
+\c@highnamepenalty=\count468
+\c@lownamepenalty=\count469
+\c@maxparens=\count470
+\c@parenlevel=\count471
+\blx@tempcnta=\count472
+\blx@tempcntb=\count473
+\blx@tempcntc=\count474
+\c@blx@maxsection=\count475
+\c@blx@maxsegment@0=\count476
+\blx@notetype=\count477
+\blx@parenlevel@text=\count478
+\blx@parenlevel@foot=\count479
+\c@blx@sectionciteorder@0=\count480
+\blx@entrysetcounter=\count481
+\blx@biblioinstance=\count482
+\labelnumberwidth=\skip272
+\labelalphawidth=\skip273
+\biblabelsep=\skip274
+\bibnamesep=\skip275
+\bibinitsep=\skip276
+\bibparsep=\skip277
+\bibhang=\skip278
+\blx@bcfin=\read6
+\blx@bcfout=\write6
+\blx@langwohyphens=\language88
+\c@mincomprange=\count483
+\c@maxcomprange=\count484
+\c@mincompwidth=\count485
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1625,88 +1468,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'abnt.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count510
-\c@savedafterword=\count511
-\c@annotator=\count512
-\c@savedannotator=\count513
-\c@author=\count514
-\c@savedauthor=\count515
-\c@bookauthor=\count516
-\c@savedbookauthor=\count517
-\c@commentator=\count518
-\c@savedcommentator=\count519
-\c@editor=\count520
-\c@savededitor=\count521
-\c@editora=\count522
-\c@savededitora=\count523
-\c@editorb=\count524
-\c@savededitorb=\count525
-\c@editorc=\count526
-\c@savededitorc=\count527
-\c@foreword=\count528
-\c@savedforeword=\count529
-\c@holder=\count530
-\c@savedholder=\count531
-\c@introduction=\count532
-\c@savedintroduction=\count533
-\c@namea=\count534
-\c@savednamea=\count535
-\c@nameb=\count536
-\c@savednameb=\count537
-\c@namec=\count538
-\c@savednamec=\count539
-\c@translator=\count540
-\c@savedtranslator=\count541
-\c@shortauthor=\count542
-\c@savedshortauthor=\count543
-\c@shorteditor=\count544
-\c@savedshorteditor=\count545
-\c@labelname=\count546
-\c@savedlabelname=\count547
-\c@institution=\count548
-\c@savedinstitution=\count549
-\c@lista=\count550
-\c@savedlista=\count551
-\c@listb=\count552
-\c@savedlistb=\count553
-\c@listc=\count554
-\c@savedlistc=\count555
-\c@listd=\count556
-\c@savedlistd=\count557
-\c@liste=\count558
-\c@savedliste=\count559
-\c@listf=\count560
-\c@savedlistf=\count561
-\c@location=\count562
-\c@savedlocation=\count563
-\c@organization=\count564
-\c@savedorganization=\count565
-\c@origlocation=\count566
-\c@savedoriglocation=\count567
-\c@origpublisher=\count568
-\c@savedorigpublisher=\count569
-\c@publisher=\count570
-\c@savedpublisher=\count571
-\c@language=\count572
-\c@savedlanguage=\count573
-\c@origlanguage=\count574
-\c@savedoriglanguage=\count575
-\c@pageref=\count576
-\c@savedpageref=\count577
-\shorthandwidth=\skip281
-\shortjournalwidth=\skip282
-\shortserieswidth=\skip283
-\shorttitlewidth=\skip284
-\shortauthorwidth=\skip285
-\shorteditorwidth=\skip286
-\locallabelnumberwidth=\skip287
-\locallabelalphawidth=\skip288
-\localshorthandwidth=\skip289
-\localshortjournalwidth=\skip290
-\localshortserieswidth=\skip291
-\localshorttitlewidth=\skip292
-\localshortauthorwidth=\skip293
-\localshorteditorwidth=\skip294
+\c@afterword=\count486
+\c@savedafterword=\count487
+\c@annotator=\count488
+\c@savedannotator=\count489
+\c@author=\count490
+\c@savedauthor=\count491
+\c@bookauthor=\count492
+\c@savedbookauthor=\count493
+\c@commentator=\count494
+\c@savedcommentator=\count495
+\c@editor=\count496
+\c@savededitor=\count497
+\c@editora=\count498
+\c@savededitora=\count499
+\c@editorb=\count500
+\c@savededitorb=\count501
+\c@editorc=\count502
+\c@savededitorc=\count503
+\c@foreword=\count504
+\c@savedforeword=\count505
+\c@holder=\count506
+\c@savedholder=\count507
+\c@introduction=\count508
+\c@savedintroduction=\count509
+\c@namea=\count510
+\c@savednamea=\count511
+\c@nameb=\count512
+\c@savednameb=\count513
+\c@namec=\count514
+\c@savednamec=\count515
+\c@translator=\count516
+\c@savedtranslator=\count517
+\c@shortauthor=\count518
+\c@savedshortauthor=\count519
+\c@shorteditor=\count520
+\c@savedshorteditor=\count521
+\c@labelname=\count522
+\c@savedlabelname=\count523
+\c@institution=\count524
+\c@savedinstitution=\count525
+\c@lista=\count526
+\c@savedlista=\count527
+\c@listb=\count528
+\c@savedlistb=\count529
+\c@listc=\count530
+\c@savedlistc=\count531
+\c@listd=\count532
+\c@savedlistd=\count533
+\c@liste=\count534
+\c@savedliste=\count535
+\c@listf=\count536
+\c@savedlistf=\count537
+\c@location=\count538
+\c@savedlocation=\count539
+\c@organization=\count540
+\c@savedorganization=\count541
+\c@origlocation=\count542
+\c@savedoriglocation=\count543
+\c@origpublisher=\count544
+\c@savedorigpublisher=\count545
+\c@publisher=\count546
+\c@savedpublisher=\count547
+\c@language=\count548
+\c@savedlanguage=\count549
+\c@origlanguage=\count550
+\c@savedoriglanguage=\count551
+\c@pageref=\count552
+\c@savedpageref=\count553
+\shorthandwidth=\skip279
+\shortjournalwidth=\skip280
+\shortserieswidth=\skip281
+\shorttitlewidth=\skip282
+\shortauthorwidth=\skip283
+\shorteditorwidth=\skip284
+\locallabelnumberwidth=\skip285
+\locallabelalphawidth=\skip286
+\localshorthandwidth=\skip287
+\localshortjournalwidth=\skip288
+\localshortserieswidth=\skip289
+\localshorttitlewidth=\skip290
+\localshortauthorwidth=\skip291
+\localshorteditorwidth=\skip292
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1718,19 +1561,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count578
-\c@textcitetotal=\count579
-\c@textcitemaxnames=\count580
-\c@biburlbigbreakpenalty=\count581
-\c@biburlbreakpenalty=\count582
-\c@biburlnumpenalty=\count583
-\c@biburlucpenalty=\count584
-\c@biburllcpenalty=\count585
+\c@textcitecount=\count554
+\c@textcitetotal=\count555
+\c@textcitemaxnames=\count556
+\c@biburlbigbreakpenalty=\count557
+\c@biburlbreakpenalty=\count558
+\c@biburlnumpenalty=\count559
+\c@biburlucpenalty=\count560
+\c@biburllcpenalty=\count561
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count586
+\c@smartand=\count562
 )
 Package biblatex Info: Trying to load bibliography style 'abnt'...
 Package biblatex Info: ... file 'abnt.bbx' found.
@@ -1746,8 +1589,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count587
-\c@bbx:relatedtotal=\count588
+\c@bbx:relatedcount=\count563
+\c@bbx:relatedtotal=\count564
 ))
 Package biblatex Info: Trying to load citation style 'abnt'...
 Package biblatex Info: ... file 'abnt.cbx' found.
@@ -1799,18 +1642,18 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
 Package newfloat Info: New float `quadro' with options ` fileext=loq, listname=
 {\textbf {LISTA DE QUADROS}}, name=Quadro, within= none, ' on input line 88.
-\c@quadro=\count589
-Package newfloat Info: float type `quadro'=8 on input line 88.
+\c@quadro=\count565
+Package newfloat Info: float type `quadro'=4 on input line 88.
 Package newfloat Info: \newfloat@listofquadro@hook is already defined on input 
 line 88.
-\c@loqdepth=\count590
-\cftbeforequadroskip=\skip295
-\cftquadroindent=\skip296
-\cftquadronumwidth=\skip297
+\c@loqdepth=\count566
+\cftbeforequadroskip=\skip293
+\cftquadroindent=\skip294
+\cftquadronumwidth=\skip295
 )
 (./00-dados.tex)
-\MemorialDescritivoInstalacoesPrediais@idxfile=\write9
-\openout9 = `MemorialDescritivoInstalacoesPrediais.idx'.
+\MemorialDescritivoInstalacoesPrediais@idxfile=\write7
+\openout7 = `MemorialDescritivoInstalacoesPrediais.idx'.
 
 
 Writing index file MemorialDescritivoInstalacoesPrediais.idx 
@@ -1818,11 +1661,6 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
-runsystem(which pygmentize && touch MemorialDescritivoInstalacoesPrediais.aex).
-..executed.
-
-runsystem(rm MemorialDescritivoInstalacoesPrediais.aex)...executed.
-
 
 LaTeX Warning: Unused global option(s):
     [subsection,portugues].
@@ -1859,7 +1697,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count591
+\c@section@level=\count567
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1867,24 +1705,24 @@ LaTeX Info: Redefining \nameref on input line 81.
 LaTeX Info: Redefining \ref on input line 81.
 LaTeX Info: Redefining \pageref on input line 81.
 LaTeX Info: Redefining \nameref on input line 81.
-\myptabbox=\box157
-\myptabboxwidth=\skip298
+\myptabbox=\box130
+\myptabboxwidth=\skip296
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 81.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count592
-\scratchdimen=\dimen348
-\scratchbox=\box158
-\nofMPsegments=\count593
-\nofMParguments=\count594
-\everyMPshowfont=\toks77
-\MPscratchCnt=\count595
-\MPscratchDim=\dimen349
-\MPnumerator=\count596
-\makeMPintoPDFobject=\count597
-\everyMPtoPDFconversion=\toks78
+\scratchcounter=\count568
+\scratchdimen=\dimen334
+\scratchbox=\box131
+\nofMPsegments=\count569
+\nofMParguments=\count570
+\everyMPshowfont=\toks75
+\MPscratchCnt=\count571
+\MPscratchDim=\dimen335
+\MPnumerator=\count572
+\makeMPintoPDFobject=\count573
+\everyMPtoPDFconversion=\toks76
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2007,7 +1845,7 @@ File: brazilian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout8 = `MemorialDescritivoInstalacoesPrediais.bcf'.
+\openout6 = `MemorialDescritivoInstalacoesPrediais.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MemorialDescritivoInstalacoesPrediais.bbl' not
@@ -2129,14 +1967,14 @@ Overfull \hbox (8.3974pt too wide) in paragraph at lines 622--623
 [41] [42] [43] [44]) 
 AED: lastpage setting LastPage
 [45]
-\tf@lof=\write10
-\openout10 = `MemorialDescritivoInstalacoesPrediais.lof'.
+\tf@lof=\write8
+\openout8 = `MemorialDescritivoInstalacoesPrediais.lof'.
 
-\tf@lot=\write11
-\openout11 = `MemorialDescritivoInstalacoesPrediais.lot'.
+\tf@lot=\write9
+\openout9 = `MemorialDescritivoInstalacoesPrediais.lot'.
 
-\tf@toc=\write12
-\openout12 = `MemorialDescritivoInstalacoesPrediais.toc'.
+\tf@toc=\write10
+\openout10 = `MemorialDescritivoInstalacoesPrediais.toc'.
 
  (./MemorialDescritivoInstalacoesPrediais.aux)
 Package logreq Info: Writing requests to 'MemorialDescritivoInstalacoesPrediais
@@ -2145,12 +1983,12 @@ Package logreq Info: Writing requests to 'MemorialDescritivoInstalacoesPrediais
 
  ) 
 Here is how much of TeX's memory you used:
- 45911 strings out of 480154
- 883340 string characters out of 5893787
- 1926115 words of memory out of 5000000
- 62682 multiletter control sequences out of 15000+600000
+ 42409 strings out of 478287
+ 791004 string characters out of 5849290
+ 1797229 words of memory out of 5000000
+ 59481 multiletter control sequences out of 15000+600000
  501613 words of font info for 218 fonts, out of 8000000 for 9000
- 61 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  106i,15n,120p,1356b,4441s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
@@ -2163,7 +2001,7 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on MemorialDescritivoInstalacoesPrediais.pdf (46 pages, 1262906 
+Output written on MemorialDescritivoInstalacoesPrediais.pdf (46 pages, 1263955 
 bytes).
 PDF statistics:
  688 PDF objects out of 1000 (max. 8388607)
