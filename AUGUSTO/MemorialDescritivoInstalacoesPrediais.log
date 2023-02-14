@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.5)  14 FEB 2023 09:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.5)  14 FEB 2023 09:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1983,11 +1983,11 @@ Package logreq Info: Writing requests to 'MemorialDescritivoInstalacoesPrediais
 
  ) 
 Here is how much of TeX's memory you used:
- 42409 strings out of 478287
- 791004 string characters out of 5849290
- 1797229 words of memory out of 5000000
+ 42407 strings out of 478287
+ 790990 string characters out of 5849290
+ 1797230 words of memory out of 5000000
  59481 multiletter control sequences out of 15000+600000
- 501613 words of font info for 218 fonts, out of 8000000 for 9000
+ 501564 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,15n,120p,1356b,4441s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -2001,7 +2001,7 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on MemorialDescritivoInstalacoesPrediais.pdf (46 pages, 1263871 
+Output written on MemorialDescritivoInstalacoesPrediais.pdf (46 pages, 1264058 
 bytes).
 PDF statistics:
  689 PDF objects out of 1000 (max. 8388607)
